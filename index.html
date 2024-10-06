@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Electronics Store</title>
+</head>
+<body>
+    <header>
+        <h1>Electronics Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#phones">Phones</a></li>
+                <li><a href="#laptops">Laptops</a></li>
+                <li><a href="#others">Other Electronics</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="phones">
+            <h2>Phones</h2>
+            <div class="product" data-name="iPhone 14" data-price="999">
+                <img src="iphone14.jpg" alt="iPhone 14">
+                <h3>iPhone 14</h3>
+                <p>$999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Samsung Galaxy S21" data-price="799">
+                <img src="galaxys21.jpg" alt="Samsung Galaxy S21">
+                <h3>Samsung Galaxy S21</h3>
+                <p>$799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Google Pixel 6" data-price="599">
+                <img src="pixel6.jpg" alt="Google Pixel 6">
+                <h3>Google Pixel 6</h3>
+                <p>$599</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="laptops">
+            <h2>Laptops</h2>
+            <div class="product" data-name="MacBook Pro" data-price="1999">
+                <img src="macbookpro.jpg" alt="MacBook Pro">
+                <h3>MacBook Pro</h3>
+                <p>$1999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Dell XPS 13" data-price="1299">
+                <img src="dellxps13.jpg" alt="Dell XPS 13">
+                <h3>Dell XPS 13</h3>
+                <p>$1299</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="HP Spectre x360" data-price="1399">
+                <img src="hpspectrex360.jpg" alt="HP Spectre x360">
+                <h3>HP Spectre x360</h3>
+                <p>$1399</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="others">
+            <h2>Other Electronics</h2>
+            <div class="product" data-name="Sony WH-1000XM4" data-price="349">
+                <img src="sonyheadphones.jpg" alt="Sony WH-1000XM4">
+                <h3>Sony WH-1000XM4</h3>
+                <p>$349</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Apple Watch Series 7" data-price="399">
+                <img src="applewatch.jpg" alt="Apple Watch Series 7">
+                <h3>Apple Watch Series 7</h3>
+                <p>$399</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Samsung Galaxy Buds" data-price="149">
+                <img src="galaxybuds.jpg" alt="Samsung Galaxy Buds">
+                <h3>Samsung Galaxy Buds</h3>
+                <p>$149</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Electronics Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+              
